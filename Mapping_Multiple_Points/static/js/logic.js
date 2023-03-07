@@ -1,14 +1,10 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 // Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([36.1733, -120.1794], 7);
-let line = [
-  [33.9416, -118.4085],
-  [37.6214, -122.3790]
-];
-L.polyline(line, {
-  color: "red"
-}).addTo(map);
+let map = L.map('mapid').setView([34.0522, -118.2437], 14);
+//  Add a marker to the map for Los Angeles, California.
+
+// An array containing each city's location, state, and population.
 // Get data from cities.js
 let cityData = cities;
   // Loop through the cities array and create one marker for each city.
